@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="nyc.c4q.jordansmith.runbuddies.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Run Buddies"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:background="#FF6443"
+        android:textColor="#FFFFFF" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Running is better with friends! \n Make and account below"
+        android:textSize="17sp"
+        android:textColor="#FF6443"
+        android:gravity="center_horizontal"
+        android:paddingTop="12dp"
+        />
+    <EditText
+        android:id= "@+id/name_view"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity = "center"
+        android:paddingTop="20dp"
+        android:hint="What's your name?"
+        />
+    <EditText
+        android:id= "@+id/email_view"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity = "center"
+        android:paddingTop="20dp"
+        android:inputType="textEmailAddress"
+        android:hint="What's your email?"/>
+    <EditText
+        android:id= "@+id/milesAWeek_view"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity = "center"
+        android:paddingTop="20dp"
+        android:inputType="number"
+        android:hint="How many miles do you run a week?"/>
+    <Button
+        android:id= "@+id/next_Button"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Next"
+        android:textColor="#FF6443"
+        android:textSize="30sp"
+        android:onClick="nextPageFunction"
+        />
+
+</LinearLayout>

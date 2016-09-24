@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RunBuddies</string>
+    <string name="title_activity_confirmation_activity_screen">ConfirmationActivityScreen</string>
+</resources>
